@@ -8,7 +8,7 @@ public class Configuracion {
         return idioma;
     }
 
-    public static void cambiarIdioma(String nuevoIdioma) {
-        
+    public static void setIdioma(String idioma) {
+        Configuracion.idioma = idioma;
     }
 }
