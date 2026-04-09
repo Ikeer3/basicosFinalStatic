@@ -5,10 +5,10 @@ public class Circulo {
     private double radio;
 
     public Circulo() {
-        this.radio = 2.5;
+        this.radio = 5;
     }
 
-    public double areaCirculo(double radio) {
+    public double areaCirculo() {
         return Constantes.PI * (radio * radio);
     }
 }
