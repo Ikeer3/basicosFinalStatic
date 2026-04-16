@@ -14,8 +14,10 @@ public class Juego {
     public boolean unirJugador() {
         if (jugadoresActuales < MAX_JUGADORES) {
             jugadoresActuales++;
+            System.out.println("Jugador añadido correctamente. En el " + nombre + " hay " + jugadoresActuales + " jugadores");
             return true;
         }
+        System.out.println("Error al añadir al jugador, máximo alcanzado!!");
         return false;
     }
 }
