@@ -6,8 +6,8 @@ public class Empleado {
     private final int ID;
     private static int totalEmpleados = 0;
 
-    public Empleado() {
-        this.nombre = "Erik";
+    public Empleado(String nombre) {
+        this.nombre = nombre;
         this.ID = totalEmpleados + 1;
         this.totalEmpleados++;
     }
